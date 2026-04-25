@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sareen Homes at Mountain View</title>
+  <meta name="description" content="Demo website for Sareen Homes at Mountain View — a luxury townhome community in Centreville, Virginia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <div id="topbar-left"></div>
+      <div id="topbar-right"></div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container">
+      <a href="#top" class="brand">
+        <strong class="serif" id="brand-name">Sareen Homes</strong>
+        <span id="brand-community">at Mountain View</span>
+      </a>
+      <nav class="nav">
+        <a href="#community">Community</a>
+        <a href="#models">Models</a>
+        <a href="#siteplan">Homesites</a>
+        <a href="#contact">Waitlist</a>
+      </nav>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn btn-secondary" href="#contact">Contact Sales</a>
+        <a class="btn btn-primary" href="#contact">Join the Waitlist</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" id="hero-bg"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="brand-chip" id="hero-chip"></div>
+          <h1 class="serif">
+            <span class="minor" id="hero-minor"></span>
+            <span id="hero-major"></span>
+          </h1>
+          <p id="hero-lead"></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact" id="hero-primary">Join the Waitlist</a>
+            <a class="btn btn-secondary" href="#models" id="hero-secondary">Explore Model Concepts</a>
+          </div>
+          <div class="hero-metrics" id="hero-stats"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="quicknav">
+      <div class="container">
+        <a href="#community">Overview</a>
+        <a href="#models">Model Concepts</a>
+        <a href="#siteplan">Homesite Plan</a>
+        <a href="#contact">Join the Waitlist</a>
+      </div>
+    </div>
+
+    <section id="community">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Community overview</div>
+          <h2 class="serif" id="overview-title"></h2>
+          <p id="overview-body"></p>
+        </div>
+
+        <div class="overview-grid">
+          <article class="card">
+            <div class="image">
+              <img id="overview-image" alt="Brick townhome streetscape illustration">
+              <div class="caption">Illustrative concept image • replace with your real streetscape rendering or approved exterior photography later.</div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <h3 class="serif">Why this demo is structured to win the job</h3>
+              <p>
+                The site leads with imagery, keeps the flow focused, and still gives the builder something that feels launch-ready. Everything important can be replaced later without tearing the design apart.
+              </p>
+              <div class="feature-list" id="overview-features"></div>
+              <div class="strip-metrics" id="overview-stats"></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="models">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Model concepts</div>
+          <h2 class="serif">Three model concepts, presented with just enough depth.</h2>
+          <p>
+            This section gives the builder a strong sense of how model merchandising can look on the final site, without overwhelming the page with unnecessary filler.
+          </p>
+        </div>
+
+        <div class="model-tabs" id="model-tabs" role="tablist" aria-label="Model tabs"></div>
+        <div id="model-panels"></div>
+      </div>
+    </section>
+
+    <section id="siteplan">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Homesite plan</div>
+          <h2 class="serif" id="homesite-title"></h2>
+          <p id="homesite-body"></p>
+        </div>
+
+        <div class="site-grid">
+          <article class="card siteplan-shell">
+            <div id="siteplan-svg-wrap"></div>
+            <div class="legend">
+              <span><i class="swatch" style="background:#d8e2ef"></i>Homesite blocks</span>
+              <span><i class="swatch" style="background:#ead5dc"></i>Featured lot color</span>
+              <span><i class="swatch" style="background:#b6d0ac"></i>Landscape / open space</span>
+              <span><i class="swatch" style="background:#7d8594"></i>Private roads</span>
+            </div>
+          </article>
+
+          <article class="card location-card">
+            <div class="card-body">
+              <div class="eyebrow">Location highlights</div>
+              <h3 class="serif">Centreville convenience, without another full section of filler.</h3>
+              <p>
+                For now, this gives buyers the essentials: connectivity, schools, parks, and everyday access. You can replace the placeholder language later with your final approved neighborhood copy.
+              </p>
+              <div class="commutes" id="homesite-highlights"></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-band">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <div class="eyebrow">Join the waitlist</div>
+            <h2 class="serif" id="contact-title"></h2>
+            <p id="contact-body"></p>
+            <div class="contact-features" id="contact-features"></div>
+          </div>
+
+          <div class="form-card">
+            <div class="eyebrow">Priority access</div>
+            <h3 class="serif" id="contact-form-title"></h3>
+            <p id="contact-form-body"></p>
+
+            <form id="lead-form" class="form-grid">
+              <div class="two">
+                <div>
+                  <label for="firstName">First name</label>
+                  <input id="firstName" name="firstName" placeholder="First name" required>
+                </div>
+                <div>
+                  <label for="lastName">Last name</label>
+                  <input id="lastName" name="lastName" placeholder="Last name" required>
+                </div>
+              </div>
+              <div class="two">
+                <div>
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" placeholder="you@example.com" required>
+                </div>
+                <div>
+                  <label for="phone">Phone</label>
+                  <input id="phone" name="phone" placeholder="(555) 555-5555">
+                </div>
+              </div>
+              <div class="two">
+                <div>
+                  <label for="interest">I'm interested in</label>
+                  <select id="interest" name="interest">
+                    <option value="">Select one</option>
+                    <option>Joining the waitlist</option>
+                    <option>Pricing and updates</option>
+                    <option>Scheduling a hard hat tour</option>
+                    <option>Homesite and model information</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="timeline">My timeline</label>
+                  <select id="timeline" name="timeline">
+                    <option value="">Select one</option>
+                    <option>As soon as possible</option>
+                    <option>3–6 months</option>
+                    <option>6–12 months</option>
+                    <option>Spring 2027</option>
+                    <option>Just exploring</option>
+                  </select>
+                </div>
+              </div>
+              <div>
+                <label for="notes">Questions or notes</label>
+                <textarea id="notes" name="notes" placeholder="Tell us what you're looking for, preferred model, questions, or if you'd like a hard hat tour."></textarea>
+              </div>
+              <div style="display:flex;gap:12px;flex-wrap:wrap">
+                <button type="submit" class="btn btn-primary">Join the Waitlist</button>
+                <a href="#top" class="btn btn-secondary">Back to Top</a>
+              </div>
+              <div class="tiny">Demo only. This form is not connected to a live CRM yet.</div>
+            </form>
+
+            <div id="success" class="success">
+              <strong>You're on the list.</strong><br>
+              In the live version, this confirmation can submit to HubSpot, Airtable, or another CRM and create a lead record with status tracking.
+            </div>
+
+            <div class="tiny" style="margin-top:14px">
+              Illustrative preview only. Pricing, square footage, floor plans, site plan, imagery, amenities, school information, and delivery timing are subject to change without notice.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <strong class="serif">Sareen Homes</strong>
+        <div class="muted" style="margin-top:4px">at Mountain View • Centreville, Virginia</div>
+      </div>
+      <p>
+        This demo site uses illustrative artwork, placeholder copy, concept model names, and sample floor plan diagrams for layout and presentation purposes only. Equal housing opportunity.
+      </p>
+    </div>
+  </footer>
+
+  <script src="site-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
