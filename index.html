@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Viridian at Braddock</title>
+  <meta name="description" content="Viridian at Braddock - a boutique collection of six luxury single family residences in Loudoun County, Virginia."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loading-mark">
+      <div class="brand-a">VIRIDIAN</div>
+      <div class="brand-b">AT BRADDOCK</div>
+      <div class="loading-line"></div>
+    </div>
+  </div>
+
+  <div class="topbar">
+    <div class="container">
+      <div id="top-left">Viridian at Braddock</div>
+      <div id="top-right">Boutique luxury residential website demo</div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container">
+      <a href="#top" class="brand" aria-label="Viridian at Braddock">
+        <span class="line-1" id="brand-top">VIRIDIAN</span>
+        <span class="line-2" id="brand-bottom">AT BRADDOCK</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#community">Community</a>
+        <a href="#features">Features</a>
+        <a href="#siteplan">Site Plan</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-secondary" href="#siteplan">View Availability</a>
+        <a class="btn btn-primary" href="#contact">Schedule a Private Tour</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <nav>
+      <a href="#community">Community</a>
+      <a href="#features">Features</a>
+      <a href="#siteplan">Site Plan</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#location">Location</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media">
+        <img id="hero-image" alt="Real photography of a luxury single family residence"/>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <div class="hero-brand-top serif" id="hero-brand-top">VIRIDIAN</div>
+          <div class="hero-brand-bottom" id="hero-brand-bottom">AT BRADDOCK</div>
+          <div class="hero-subtitle" id="hero-subtitle">A Boutique Collection of Six Luxury Single Family Residences</div>
+          <h1 class="hero-title" id="hero-title">A rare address, thoughtfully composed.</h1>
+          <p class="hero-body" id="hero-body"></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" id="hero-primary" href="#community">Explore the Community</a>
+            <a class="btn btn-secondary" id="hero-secondary" href="#contact">Schedule a Private Tour</a>
+          </div>
+          <div class="scroll-mark">
+            <span class="line"></span>
+            <span>Explore</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="community">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Community Overview</div>
+          <h2 id="community-title">Thoughtfully designed for elevated modern living in Loudoun County.</h2>
+          <p id="community-body"></p>
+        </div>
+
+        <div class="editorial-grid">
+          <div class="image-panel reveal">
+            <img id="community-image" alt="Luxury single family home exterior"/>
+          </div>
+          <div class="copy-panel reveal">
+            <h3>Private. Curated. Enduring.</h3>
+            <p>
+              The tone of Viridian at Braddock should feel more like a boutique architectural brand than a traditional builder website. The experience is intentionally calm, editorial, and composed around real photography, generous whitespace, and only the information that moves the story forward.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Feature Grid</div>
+          <h2>Architectural clarity, without excess.</h2>
+          <p>
+            Four essential messages. No clutter. No generic builder language. Just the core ideas that define the community.
+          </p>
+        </div>
+        <div class="features-grid" id="features-grid"></div>
+      </div>
+    </section>
+
+    <section id="siteplan">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Site Plan</div>
+          <h2 id="siteplan-title">A quieter kind of exclusivity.</h2>
+          <p id="siteplan-body"></p>
+        </div>
+
+        <div class="siteplan-wrap">
+          <article class="siteplan-card reveal">
+            <div id="siteplan-svg-wrap"></div>
+            <div class="legend">
+              <span><i class="dot available"></i>Available</span>
+              <span><i class="dot hold"></i>Hold</span>
+              <span><i class="dot reserved"></i>Reserved</span>
+            </div>
+          </article>
+
+          <aside class="detail-card reveal">
+            <div class="eyebrow">Availability</div>
+            <h3 id="detail-title">Homesite 1</h3>
+            <div id="detail-status" class="status-chip status-available">Available</div>
+            <p id="detail-body" style="margin-top:14px"></p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Gallery</div>
+          <h2 id="gallery-title">A calm, architectural visual language.</h2>
+          <p id="gallery-body"></p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item reveal">
+            <img id="gallery-exterior" alt="Real luxury single family home photography"/>
+          </div>
+          <div class="gallery-item reveal">
+            <img id="gallery-kitchen" alt="Real luxury kitchen photography"/>
+          </div>
+          <div class="gallery-item reveal">
+            <img id="gallery-living" alt="Real luxury interior photography"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="location">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Location</div>
+          <h2 id="location-title">Connected to Loudoun County's most enduring rhythms.</h2>
+          <p id="location-body"></p>
+        </div>
+
+        <div class="location-grid">
+          <article class="location-card reveal">
+            <div class="location-items" id="location-items"></div>
+          </article>
+
+          <div class="map-panel reveal">
+            <svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" aria-label="Minimal Loudoun County style map">
+              <rect width="900" height="620" fill="#efe9e1"/>
+              <path d="M95 110C180 78 278 96 332 142C390 190 464 195 536 160C620 118 710 122 792 164" fill="none" stroke="#d1c2ae" stroke-width="52" stroke-linecap="round"/>
+              <path d="M118 358C214 298 330 292 430 334C542 382 666 374 786 330" fill="none" stroke="#d7c8b6" stroke-width="44" stroke-linecap="round"/>
+              <path d="M238 80C224 176 274 250 352 302C414 344 456 398 476 498" fill="none" stroke="#c7d7cf" stroke-width="36" stroke-linecap="round"/>
+              <path d="M615 196C578 262 594 336 664 410" fill="none" stroke="#c7d7cf" stroke-width="28" stroke-linecap="round"/>
+              <path d="M266 156C326 146 392 166 462 224C526 278 596 286 674 248" fill="none" stroke="#9fb9b2" stroke-width="16" stroke-linecap="round"/>
+              <circle cx="472" cy="266" r="18" fill="#3E6B63"/>
+              <circle cx="472" cy="266" r="40" fill="rgba(62,107,99,.14)"/>
+              <text x="500" y="272" font-family="Montserrat, sans-serif" font-size="22" font-weight="700" fill="#2D2D2D">Viridian at Braddock</text>
+              <text x="504" y="300" font-family="Montserrat, sans-serif" font-size="13" fill="#756a5b">Illustrative Loudoun County location styling</text>
+              <text x="108" y="396" font-family="Montserrat, sans-serif" font-size="14" fill="#7b6f60">Outdoor lifestyle</text>
+              <text x="650" y="356" font-family="Montserrat, sans-serif" font-size="14" fill="#7b6f60">Dining & wineries</text>
+              <text x="584" y="148" font-family="Montserrat, sans-serif" font-size="14" fill="#7b6f60">Dulles</text>
+              <text x="740" y="188" font-family="Montserrat, sans-serif" font-size="14" fill="#7b6f60">DC access</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="utility">
+      <div class="container">
+        <div class="utility-grid">
+          <article class="brochure-card reveal">
+            <div class="eyebrow">Brochure & QR</div>
+            <h3 id="brochure-title">Brochure & QR integration</h3>
+            <p id="brochure-body"></p>
+            <div class="brochure-flex">
+              <div class="qr-box">
+                <img id="brochure-qr" alt="QR code placeholder for brochure"/>
+              </div>
+              <div>
+                <a id="brochure-link" class="btn btn-primary" href="assets/viridian-at-braddock-brochure.pdf" download>Download Brochure</a>
+                <div class="meta-line" id="brochure-file-name">Download placeholder brochure PDF</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="realtor-card reveal">
+            <div class="eyebrow">Realtor Inquiry</div>
+            <h3 id="realtor-title">Realtor & broker inquiries</h3>
+            <p id="realtor-body"></p>
+            <div class="realtor-meta">
+              <div>
+                <strong>Email</strong>
+                <a id="realtor-email" href="mailto:broker@viridianatbraddock.com">broker@viridianatbraddock.com</a>
+              </div>
+              <div>
+                <strong>Phone</strong>
+                <a id="realtor-phone" href="tel:+15555550124">(555) 555-0124</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="eyebrow">Contact / Lead Capture</div>
+          <h3 id="contact-title">Request Information</h3>
+          <p id="contact-body"></p>
+
+          <form id="lead-form" class="form-grid">
+            <div class="two">
+              <div>
+                <label for="name">Name</label>
+                <input id="name" name="name" placeholder="Your name" required/>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required/>
+              </div>
+            </div>
+
+            <div class="two">
+              <div>
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" placeholder="(555) 555-5555"/>
+              </div>
+              <div>
+                <label for="timeline">Desired Move-In Timeframe</label>
+                <select id="timeline" name="timeline">
+                  <option value="">Select timeframe</option>
+                  <option>As soon as possible</option>
+                  <option>3–6 months</option>
+                  <option>6–12 months</option>
+                  <option>12+ months</option>
+                  <option>Just exploring</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="two">
+              <div>
+                <label for="homesite">Interested Homesite</label>
+                <select id="homesite-options" name="interestedHomesite">
+                  <option value="">Select Homesite</option>
+                </select>
+              </div>
+              <div>
+                <label for="sales-contact">Sales Contact</label>
+                <input id="sales-contact" value="" disabled/>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Request Information</button>
+              <a class="btn btn-secondary" href="#top">Back to Top</a>
+            </div>
+          </form>
+
+          <div id="success" class="success">
+            Thank you. Your inquiry has been captured. In the live version, this can post directly into your Google Sheet or CRM workflow.
+          </div>
+
+          <div style="margin-top:16px; color:#6a6a6a; font-size:13px; line-height:1.8;">
+            Sales contact: <strong id="sales-name">Your Name Here</strong> •
+            <a id="sales-phone" href="tel:+15555555555">(555) 555-5555</a> •
+            <a id="sales-email" href="mailto:info@viridianatbraddock.com">info@viridianatbraddock.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="mobile-sticky-cta">
+    <a class="btn btn-primary" href="#contact" style="width:100%">Request Information</a>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="brand">
+        <span class="line-1">VIRIDIAN</span>
+        <span class="line-2">AT BRADDOCK</span>
+      </div>
+      <div class="brand-note">
+        Demo website prepared for presentation purposes. Photography, lot statuses, brochure content, copy, and contact information can all be replaced with final approved materials.
+      </div>
+    </div>
+  </footer>
+
+  <script src="site-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
