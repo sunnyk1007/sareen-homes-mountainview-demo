@@ -133,9 +133,9 @@ window.siteData = {
   },
 
   sales: {
-    repName: "Your Name Here",
+    repName: "Arun Sareen",
     phone: "(555) 555-5555",
-    email: "sales@example.com",
+    email: "Arun@sareenrealty.com",
     office: "Sales gallery address goes here",
     hours: "Mon–Sun by appointment"
   },
