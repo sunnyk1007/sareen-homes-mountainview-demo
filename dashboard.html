@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mountain View Lead Dashboard</title>
+  <meta name="description" content="Demo internal lead dashboard for Sareen Homes at Mountain View.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <div>Internal demo dashboard • Sareen Homes at Mountain View</div>
+      <div>Mock CRM workflow for builder presentation</div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <strong class="serif">Sareen Homes</strong>
+        <span>at Mountain View</span>
+      </a>
+      <div style="display:flex; gap:10px; flex-wrap:wrap">
+        <a class="btn btn-secondary" href="index.html">Open Website Demo</a>
+        <button class="btn btn-primary" type="button">Internal Lead Dashboard</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-card">
+            <div class="eyebrow">Lead management concept</div>
+            <h1 class="serif">A simple internal CRM experience to show the builder.</h1>
+            <p>
+              This is a polished demo of how leads from the website could be organized once they come in. It is designed to help you pitch both sides of the job: the public-facing community site and the internal workflow for managing inquiries.
+            </p>
+
+            <div id="summary" class="summary-grid"></div>
+
+            <div class="controls-row">
+              <div class="controls-card">
+                <label for="search">Search leads</label>
+                <input id="search" type="text" placeholder="Search by name, email, phone, or notes">
+              </div>
+              <div class="controls-card">
+                <label for="ownerFilter">Owner</label>
+                <select id="ownerFilter"></select>
+              </div>
+              <div class="controls-card">
+                <label for="stageFilter">Stage</label>
+                <select id="stageFilter">
+                  <option value="">All stages</option>
+                  <option value="New">New</option>
+                  <option value="Called">Called</option>
+                  <option value="Site Visit">Site Visit</option>
+                  <option value="Follow-Up Visit">Follow-Up Visit</option>
+                  <option value="Offer Submitted">Offer Submitted</option>
+                  <option value="Not Interested">Not Interested</option>
+                </select>
+                <div class="controls-actions">
+                  <button class="btn btn-secondary" id="clearFilters" type="button">Clear filters</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-card" id="detail"></div>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="container">
+        <div class="main-grid">
+          <div>
+            <div class="eyebrow" style="margin-bottom:12px">Pipeline view</div>
+            <div class="board" id="board"></div>
+
+            <div class="table-card">
+              <div class="eyebrow">All leads</div>
+              <h3 class="serif">Table view</h3>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Submitted</th>
+                      <th>Lead</th>
+                      <th>Contact</th>
+                      <th>Interest</th>
+                      <th>Status</th>
+                      <th>Owner</th>
+                      <th>Reason</th>
+                    </tr>
+                  </thead>
+                  <tbody id="lead-table-body"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="summary-card" style="padding:22px; align-self:start">
+            <div class="eyebrow">How to position this in the pitch</div>
+            <strong style="display:block; color:#fff; font-size:28px; margin-top:10px">Show the builder the whole system.</strong>
+            <span style="display:block; color:var(--ink-soft); font-size:15px; line-height:1.8; margin-top:12px">
+              Lead with the public-facing site first, then show this dashboard to explain that the job can also include lightweight lead management.
+            </span>
+            <div class="tiny" style="margin-top:16px">
+              This dashboard is a demo mockup using local browser storage. The free working backend is still the Google Sheet + Apps Script package included with the site.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <strong class="serif">Sareen Homes</strong>
+        <div class="tiny" style="margin-top:4px">Lead dashboard demo • Mountain View</div>
+      </div>
+      <p>
+        Demo data only. This internal dashboard is for presentation purposes and can be upgraded later to read from a real backend.
+      </p>
+    </div>
+  </footer>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
